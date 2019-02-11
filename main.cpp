@@ -5,7 +5,7 @@
 #include <vector>
 #include <algorithm>
 #include "Pokemon.h"
-#include <fstream>é
+#include <fstream>
 
 void testPokemon(){
     Pokemon p1("test", "test");
@@ -43,10 +43,7 @@ int main() {
     if (ifs) {
         Pokemon p;
     while (!ifs.eof()) {
- ifs >> p;
- if (!ifs.fail()) {
- std::cout << p;
- }
+        ifs >> p;
         pokemons.push_back(p);
     }
  ifs.close();
