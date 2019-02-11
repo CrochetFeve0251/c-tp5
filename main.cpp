@@ -27,19 +27,23 @@ void sortPokemons(std::vector<Pokemon> v){
 }
 
 int main() {
-    testPokemon();
- std::ifstream ifs("Pokemons.txt");
- if (ifs) {
- Pokemon p;
- while (!ifs.eof()) {
+    //testPokemon();
+    std::ifstream ifs("/home/cf0/c-tp5/Pokemons.txt");
+    std::vector<Pokemon> pokemons;
+    if (ifs) {
+        Pokemon p;
+    while (!ifs.eof()) {
  ifs >> p;
  if (!ifs.fail()) {
  std::cout << p;
  }
- }
+        pokemons.push_back(p);
+    }
  ifs.close();
  }
  else {
  std::cerr << "Impossible d'ouvrir le fichier " << std::endl;
  }
+    sortPokemons(pokemons);
+    searchPikachu(pokemons);
  }
