@@ -28,7 +28,7 @@ void sortPokemons(std::vector<Pokemon> v){
 
 int main() {
     //testPokemon();
-    std::ifstream ifs("/home/cf0/c-tp5/Pokemons.txt");
+    std::ifstream ifs("/home/eisti/GitProject/c-tp5/Pokemons.txt");
     std::vector<Pokemon> pokemons;
     if (ifs) {
         Pokemon p;

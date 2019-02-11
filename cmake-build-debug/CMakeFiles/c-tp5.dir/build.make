@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/cf0/Documents/clion-2018.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/eisti/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/cf0/Documents/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/eisti/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cf0/c-tp5
+CMAKE_SOURCE_DIR = /home/eisti/GitProject/c-tp5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cf0/c-tp5/cmake-build-debug
+CMAKE_BINARY_DIR = /home/eisti/GitProject/c-tp5/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/c-tp5.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/c-tp5.dir/flags.make
 
 CMakeFiles/c-tp5.dir/main.cpp.o: CMakeFiles/c-tp5.dir/flags.make
 CMakeFiles/c-tp5.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cf0/c-tp5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c-tp5.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c-tp5.dir/main.cpp.o -c /home/cf0/c-tp5/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eisti/GitProject/c-tp5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c-tp5.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c-tp5.dir/main.cpp.o -c /home/eisti/GitProject/c-tp5/main.cpp
 
 CMakeFiles/c-tp5.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c-tp5.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cf0/c-tp5/main.cpp > CMakeFiles/c-tp5.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eisti/GitProject/c-tp5/main.cpp > CMakeFiles/c-tp5.dir/main.cpp.i
 
 CMakeFiles/c-tp5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c-tp5.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cf0/c-tp5/main.cpp -o CMakeFiles/c-tp5.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eisti/GitProject/c-tp5/main.cpp -o CMakeFiles/c-tp5.dir/main.cpp.s
 
 CMakeFiles/c-tp5.dir/Pokemon.cpp.o: CMakeFiles/c-tp5.dir/flags.make
 CMakeFiles/c-tp5.dir/Pokemon.cpp.o: ../Pokemon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cf0/c-tp5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c-tp5.dir/Pokemon.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c-tp5.dir/Pokemon.cpp.o -c /home/cf0/c-tp5/Pokemon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eisti/GitProject/c-tp5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c-tp5.dir/Pokemon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c-tp5.dir/Pokemon.cpp.o -c /home/eisti/GitProject/c-tp5/Pokemon.cpp
 
 CMakeFiles/c-tp5.dir/Pokemon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c-tp5.dir/Pokemon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cf0/c-tp5/Pokemon.cpp > CMakeFiles/c-tp5.dir/Pokemon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eisti/GitProject/c-tp5/Pokemon.cpp > CMakeFiles/c-tp5.dir/Pokemon.cpp.i
 
 CMakeFiles/c-tp5.dir/Pokemon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c-tp5.dir/Pokemon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cf0/c-tp5/Pokemon.cpp -o CMakeFiles/c-tp5.dir/Pokemon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eisti/GitProject/c-tp5/Pokemon.cpp -o CMakeFiles/c-tp5.dir/Pokemon.cpp.s
 
 # Object files for target c-tp5
 c__tp5_OBJECTS = \
@@ -95,7 +95,7 @@ c-tp5: CMakeFiles/c-tp5.dir/main.cpp.o
 c-tp5: CMakeFiles/c-tp5.dir/Pokemon.cpp.o
 c-tp5: CMakeFiles/c-tp5.dir/build.make
 c-tp5: CMakeFiles/c-tp5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cf0/c-tp5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable c-tp5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eisti/GitProject/c-tp5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable c-tp5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c-tp5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/c-tp5.dir/clean:
 .PHONY : CMakeFiles/c-tp5.dir/clean
 
 CMakeFiles/c-tp5.dir/depend:
-	cd /home/cf0/c-tp5/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cf0/c-tp5 /home/cf0/c-tp5 /home/cf0/c-tp5/cmake-build-debug /home/cf0/c-tp5/cmake-build-debug /home/cf0/c-tp5/cmake-build-debug/CMakeFiles/c-tp5.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eisti/GitProject/c-tp5/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eisti/GitProject/c-tp5 /home/eisti/GitProject/c-tp5 /home/eisti/GitProject/c-tp5/cmake-build-debug /home/eisti/GitProject/c-tp5/cmake-build-debug /home/eisti/GitProject/c-tp5/cmake-build-debug/CMakeFiles/c-tp5.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c-tp5.dir/depend
 

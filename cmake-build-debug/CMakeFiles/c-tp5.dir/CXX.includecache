@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/cf0/c-tp5/Pokemon.h
+/home/eisti/GitProject/c-tp5/Pokemon.h
 iostream
 -
 string
 -
 
-/home/cf0/c-tp5/main.cpp
+/home/eisti/GitProject/c-tp5/main.cpp
 iostream
 -
 vector
@@ -20,7 +20,7 @@ vector
 algorithm
 -
 Pokemon.h
-/home/cf0/c-tp5/Pokemon.h
+/home/eisti/GitProject/c-tp5/Pokemon.h
 fstream
 -
 
