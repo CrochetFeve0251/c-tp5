@@ -13,7 +13,16 @@ class Pokemon {
 		Pokemon(const std::string & n, const std::string & e, int p);
 		~Pokemon();   
 		const std::string & getNom() const;
-		bool operator<(const Pokemon & autre) const;
-		friend std::ostream & operator<<(std::ostream & out, const Pokemon & p);
-		friend std::istream & operator>>(std::istream & in, Pokemon & p);
+
+	friend bool operator<(const Pokemon &lhs, const Pokemon &rhs);
+
+	friend bool operator>(const Pokemon &lhs, const Pokemon &rhs);
+
+	friend bool operator<=(const Pokemon &lhs, const Pokemon &rhs);
+
+	friend bool operator>=(const Pokemon &lhs, const Pokemon &rhs);
+
+	friend std::ostream &operator<<(std::ostream &os, const Pokemon &pokemon);
+
+	friend std::istream & operator>>(std::istream & in, Pokemon & p);
 };
