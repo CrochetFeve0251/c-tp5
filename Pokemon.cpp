@@ -29,6 +29,11 @@ bool operator>=(const Pokemon &lhs, const Pokemon &rhs) {
 }
 
 std::ostream &operator<<(std::ostream &os, const Pokemon &pokemon) {
-	os << "nom: " << pokemon.nom << " espece: " << pokemon.espece << " pointCombat: " << pokemon.pointCombat;
+	os << pokemon.nom << " " << pokemon.espece << " " << pokemon.pointCombat;
 	return os;
+}
+
+std::istream &operator>>(std::istream &in, Pokemon &p) {
+	in >> p.nom >> p.espece >> p.pointCombat;
+	return in;
 }
