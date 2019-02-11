@@ -29,3 +29,20 @@ int main() {
     testPokemon();
     return 0;
 }
+
+
+ ifstream ifs("Pokemons.txt");
+ if (ifs) {
+ Pokemon p;
+ while (!ifs.eof()) {
+ ifs >> p;
+ if (!ifs.fail()) {
+ cout << p;
+ }
+ }
+ ifs.close();
+ }
+ else {
+ cerr << "Impossible d'ouvrir le fichier " << endl;
+ }
+ }
