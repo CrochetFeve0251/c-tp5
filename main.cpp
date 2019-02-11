@@ -5,7 +5,7 @@
 #include <vector>
 #include <algorithm>
 #include "Pokemon.h"
-#include <fstream>
+#include <fstream>é
 
 void testPokemon(){
     Pokemon p1("test", "test");
@@ -15,6 +15,7 @@ void testPokemon(){
 }
 
 void searchPikachu(std::vector<Pokemon> v) {
+    std::cout << "Pikachu: " << std::endl;
     for(Pokemon p : v)
         if(p.getNom() == "Pikachu")
             std::cout << p << std::endl;
@@ -22,8 +23,17 @@ void searchPikachu(std::vector<Pokemon> v) {
 
 void sortPokemons(std::vector<Pokemon> v){
     std::sort(v.begin(),v.end());
-    for(Pokemon p : v)
-        std::cout << p << std::endl;
+    std::ofstream fichier("/home/cf0/c-tp5/PokemonsTrie.txt", std::ios::out | std::ios::trunc);  //déclaration du flux et ouverture du fichier
+
+    if(fichier)  // si l'ouverture a réuss
+    {
+        std::cout << "Sorted: " << std::endl;
+        for(Pokemon p : v){
+            std::cout << p << std::endl;
+            fichier << p << std::endl;
+        }
+        fichier.close();  // on referme le fichier
+    }
 }
 
 int main() {

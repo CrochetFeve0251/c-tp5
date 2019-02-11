@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/cf0/c-tp5/Pokemon.cpp
+Pokemon.h
+/home/cf0/c-tp5/Pokemon.h
+
 /home/cf0/c-tp5/Pokemon.h
 iostream
 -
