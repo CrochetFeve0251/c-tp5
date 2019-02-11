@@ -3,6 +3,10 @@
 //
 #include <iostream>
 
+void testPokemon(){
+
+}
+
 int main() {
     return 0;
 }
