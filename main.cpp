@@ -14,13 +14,13 @@ void testPokemon(){
     std::cout << p1 << std::endl;
 }
 
-void searchPikachu(std::vector v) {
+void searchPikachu(std::vector<Pokemon> v) {
     for(Pokemon p : v)
-        if(p.name == "Pikachu")
+        if(p.getNom() == "Pikachu")
             std::cout << p << std::endl;
 }
 
-void sortPokemons(std::vector v){
+void sortPokemons(std::vector<Pokemon> v){
     std::sort(v.begin(),v.end());
     for(Pokemon p : v)
         std::cout << p << std::endl;
