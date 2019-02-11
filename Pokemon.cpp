@@ -32,3 +32,8 @@ std::ostream &operator<<(std::ostream &os, const Pokemon &pokemon) {
 	os << "nom: " << pokemon.nom << " espece: " << pokemon.espece << " pointCombat: " << pokemon.pointCombat;
 	return os;
 }
+
+std::istream &operator>>(std::istream &in, Pokemon &p) {
+	in >> p.nom >> p.espece >> p.pointCombat;
+	return in;
+}
