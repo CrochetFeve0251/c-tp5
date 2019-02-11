@@ -33,17 +33,16 @@ int main() {
     if (ifs) {
         Pokemon p;
     while (!ifs.eof()) {
- ifs >> p;
- if (!ifs.fail()) {
- std::cout << p;
- }
+        ifs >> p;
+        if (!ifs.fail()) {
+            std::cout << p;
+        }
         pokemons.push_back(p);
     }
- ifs.close();
- }
- else {
- std::cerr << "Impossible d'ouvrir le fichier " << std::endl;
- }
+    ifs.close();
+    } else {
+        std::cerr << "Impossible d'ouvrir le fichier " << std::endl;
+    }
     sortPokemons(pokemons);
     searchPikachu(pokemons);
- }
+}
