@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5739f39-76f2-495e-929f-1ba62b2655d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -37,11 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="e#37#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="346">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -49,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -161,12 +157,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549872312933</updated>
-      <workItem from="1549872325038" duration="4205000" />
+      <workItem from="1549872325038" duration="4487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4205000" />
+    <option name="totallyTimeSpent" value="4487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="749" extended-state="0" />
@@ -235,13 +231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pokemon.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -256,13 +245,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
