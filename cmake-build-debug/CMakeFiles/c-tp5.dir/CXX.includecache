@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cf0/c-tp5/Pokemon.cpp
+Pokemon.h
+/home/cf0/c-tp5/Pokemon.h
+
+/home/cf0/c-tp5/Pokemon.h
+iostream
+-
+string
+-
+
+/home/cf0/c-tp5/main.cpp
+iostream
+-
+Pokemon.h
+/home/cf0/c-tp5/Pokemon.h
+
